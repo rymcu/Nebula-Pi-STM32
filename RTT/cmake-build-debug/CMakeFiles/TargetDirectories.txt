@@ -1,3 +1,0 @@
-/Users/hugh/Documents/NebulaPi32/RTT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hugh/Documents/NebulaPi32/RTT/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hugh/Documents/NebulaPi32/RTT/cmake-build-debug/CMakeFiles/RTT.elf.dir
