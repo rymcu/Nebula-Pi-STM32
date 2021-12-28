@@ -29,6 +29,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/bsp_spi_flash.c" "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Core/Src/bsp_spi_flash.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/main.c" "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Core/Src/main.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/stm32f1xx_hal_msp.c" "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/stm32f1xx_it.c" "/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Core/Src/stm32f1xx_it.c.obj"

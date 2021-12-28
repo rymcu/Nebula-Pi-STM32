@@ -129,6 +129,30 @@ Proj32.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/build
 .PHONY : Proj32.elf/fast
 
+Core/Src/bsp_spi_flash.obj: Core/Src/bsp_spi_flash.c.obj
+.PHONY : Core/Src/bsp_spi_flash.obj
+
+# target to build an object file
+Core/Src/bsp_spi_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/Core/Src/bsp_spi_flash.c.obj
+.PHONY : Core/Src/bsp_spi_flash.c.obj
+
+Core/Src/bsp_spi_flash.i: Core/Src/bsp_spi_flash.c.i
+.PHONY : Core/Src/bsp_spi_flash.i
+
+# target to preprocess a source file
+Core/Src/bsp_spi_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/Core/Src/bsp_spi_flash.c.i
+.PHONY : Core/Src/bsp_spi_flash.c.i
+
+Core/Src/bsp_spi_flash.s: Core/Src/bsp_spi_flash.c.s
+.PHONY : Core/Src/bsp_spi_flash.s
+
+# target to generate assembly for a file
+Core/Src/bsp_spi_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/Core/Src/bsp_spi_flash.c.s
+.PHONY : Core/Src/bsp_spi_flash.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -674,6 +698,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Proj32.elf"
+	@echo "... Core/Src/bsp_spi_flash.obj"
+	@echo "... Core/Src/bsp_spi_flash.i"
+	@echo "... Core/Src/bsp_spi_flash.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"

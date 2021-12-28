@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
+#include "bsp_spi_flash.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -39,6 +40,7 @@ uint8_t Wr_buff[BuffSize],Rd_buff[BuffSize];//读写数据buff
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 void EEPROM_IIC_Test(void);
+void SPI_FLASH_Test(void);
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -49,7 +51,7 @@ void EEPROM_IIC_Test(void);
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c1;
 
-SPI_HandleTypeDef hspi1;
+extern SPI_HandleTypeDef hspi1;
 
 UART_HandleTypeDef huart1;
 
@@ -105,7 +107,8 @@ int main(void)
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
   //EEPROM测试
-  EEPROM_IIC_Test();
+  //EEPROM_IIC_Test();
+  SPI_FLASH_Test();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -343,6 +346,30 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+//SPI FLASH测试
+#define  FLASHBUFFSIZE 64
+void SPI_FLASH_Test(void)
+{
+    uint16_t FLASH_ID;
+    uint8_t Flash_Wr_Buff[FLASHBUFFSIZE],Flash_Rd_Buff[FLASHBUFFSIZE];
+    printf("SPI总线通信实验，读写8M外部FLASH W25Q64!\r\n",FLASH_ID);
+    FLASH_ID = W25QXX_ReadID();//读取W25Q64器件ID
+    HAL_Delay(100);
+    printf("the FLASH Device ID is 0x%X!\r\n",FLASH_ID);
+    //W25Q64 = 8MByte,地址范围：0x000000-0x7FFFFF
+    //Sector：每4KB为一个Sector,8M/4K=2048个
+    //Block：每64KB为一个Block,8M/64K=128个，每个Block包括16个Sector
+    SPI_FLASH_SectorErase(0x00);//擦除第一个Sector
+    for (int i = 0; i < FLASHBUFFSIZE; ++i) Flash_Wr_Buff[i] = i;
+    SPI_FLASH_BufferWrite(Flash_Wr_Buff,0x00,FLASHBUFFSIZE);
+    SPI_FLASH_BufferRead(Flash_Rd_Buff,0x00,FLASHBUFFSIZE);
+    printf("Read data form W25Q64: \r\n");
+    for(uint16_t i=0;i<FLASHBUFFSIZE;i++)
+    {
+        printf("0x%02x ",Flash_Rd_Buff[i]);
+    }
+    printf("\r\n");
+}
 //EEPROM测试
 void EEPROM_IIC_Test(void)
 {

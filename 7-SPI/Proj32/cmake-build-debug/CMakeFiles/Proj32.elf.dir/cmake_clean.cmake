@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Proj32.elf.dir/Core/Src/bsp_spi_flash.c.obj"
   "CMakeFiles/Proj32.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/Proj32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "CMakeFiles/Proj32.elf.dir/Core/Src/stm32f1xx_it.c.obj"

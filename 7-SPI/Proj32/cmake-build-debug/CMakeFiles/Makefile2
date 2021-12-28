@@ -81,12 +81,12 @@ clean: CMakeFiles/Proj32.elf.dir/clean
 CMakeFiles/Proj32.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proj32.elf.dir/build.make CMakeFiles/Proj32.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target Proj32.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target Proj32.elf"
 .PHONY : CMakeFiles/Proj32.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proj32.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Proj32.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Proj32.elf.dir/rule

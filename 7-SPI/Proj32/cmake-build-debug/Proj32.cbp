@@ -96,6 +96,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/.DS_Store">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Inc/.DS_Store">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Inc/bsp_spi_flash.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Inc/main.h">
 			<Option target="Proj32.elf"/>
 		</Unit>
@@ -103,6 +112,12 @@
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Inc/stm32f1xx_it.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/.DS_Store">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/bsp_spi_flash.c">
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Src/main.c">
@@ -124,6 +139,9 @@
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Core/Startup/startup_stm32f103vbtx.s">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Drivers/.DS_Store">
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/7-SPI/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
