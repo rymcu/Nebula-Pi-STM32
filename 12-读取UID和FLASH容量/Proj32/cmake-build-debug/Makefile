@@ -57,10 +57,10 @@ RM = "/Users/hugh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32
+CMAKE_SOURCE_DIR = /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32/cmake-build-debug/CMakeFiles /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32/cmake-build-debug/CMakeFiles /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32
+# Install script for directory: /Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hugh/Documents/Projects/NebulaPi32/12-读写UID和FLASH容量/Proj32/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hugh/Documents/Projects/NebulaPi32/12-读取UID和FLASH容量/Proj32/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
