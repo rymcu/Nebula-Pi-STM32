@@ -52,6 +52,10 @@
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -81,6 +85,10 @@
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -237,6 +245,12 @@
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="Proj32.elf"/>
 		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="Proj32.elf"/>
 		</Unit>
@@ -250,6 +264,9 @@
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h">
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/License.md">
@@ -279,6 +296,12 @@
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="Proj32.elf"/>
 		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="Proj32.elf"/>
 		</Unit>
@@ -294,7 +317,61 @@
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="Proj32.elf"/>
 		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/STM32F103VBTX_FLASH.ld">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.h">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="Proj32.elf"/>
+		</Unit>
+		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="Proj32.elf"/>
 		</Unit>
 		<Unit filename="/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/CMakeLists.txt">

@@ -27,6 +27,10 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
   "../Drivers/CMSIS/Include"
+  "../USB_DEVICE/App"
+  "../USB_DEVICE/Target"
+  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Core/Src/main.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Core/Src/main.c.obj"
@@ -43,11 +47,22 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+  "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.c" "/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -65,6 +80,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
   "../Drivers/CMSIS/Include"
+  "../USB_DEVICE/App"
+  "../USB_DEVICE/Target"
+  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   )
 
 # The set of dependency files which are needed:

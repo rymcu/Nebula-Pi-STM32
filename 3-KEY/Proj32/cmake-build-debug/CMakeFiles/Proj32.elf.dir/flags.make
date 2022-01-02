@@ -5,13 +5,13 @@
 # compile C with /opt/homebrew/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include
+ASM_INCLUDES = -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
 
 ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include
+C_INCLUDES = -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/CMSIS/Include -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
 
 C_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

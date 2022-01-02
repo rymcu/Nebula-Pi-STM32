@@ -261,9 +261,35 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c > CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c > CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -276,7 +302,7 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -289,7 +315,7 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -302,7 +328,7 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -315,7 +341,7 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -325,6 +351,123 @@ CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.
 CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c > CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+
+CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c -o CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c > CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c > CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c > CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c > CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c -o CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVICE/App/usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.c
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.c > CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.i
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usb_device.c -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.s
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.c
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.c > CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_cdc_if.c -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/App/usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.c
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.c > CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.i
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/App/usbd_desc.c -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.s
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/Proj32.elf.dir/flags.make
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -c /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.c
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.c > CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
+
+CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/USB_DEVICE/Target/usbd_conf.c -o CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
 
 # Object files for target Proj32.elf
 Proj32_elf_OBJECTS = \
@@ -343,11 +486,22 @@ Proj32_elf_OBJECTS = \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
-"CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+"CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
+"CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
+"CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
+"CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
+"CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
+"CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 
 # External object files for target Proj32.elf
 Proj32_elf_EXTERNAL_OBJECTS =
@@ -367,14 +521,25 @@ Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usb_device.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+Proj32.elf: CMakeFiles/Proj32.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 Proj32.elf: CMakeFiles/Proj32.elf.dir/build.make
 Proj32.elf: CMakeFiles/Proj32.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable Proj32.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable Proj32.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proj32.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/Proj32.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/hugh/Documents/Projects/NebulaPi32/3-KEY/Proj32/cmake-build-debug/Proj32.bin"
