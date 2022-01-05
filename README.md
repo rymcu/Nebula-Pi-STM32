@@ -1,3 +1,15 @@
+<p align="center">
+<img alt="logo" src="https://rymcu.com/_nuxt/img/rymcu.3b63a55.png">
+</p>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">nebula-pi-stm32</h1>
+<h4 align="center">零基础入门STM32，基于HAL开发！</h4>
+<p align="center">
+    <a href="https://gitee.com/rymcu-community/nebula-pi-stm32/stargazers"><img src="https://gitee.com/rymcu-community/nebula-pi-stm32/badge/star.svg?theme=starts"></a>
+    <a href="https://gitee.com/hugh-rymcu"><img src="https://img.shields.io/badge/石头人-v20-brightgreen.svg"></a>
+    <a href="https://gitee.com/rymcu-community"><img src="https://img.shields.io/badge/rymcu-community-brightgreen.svg"></a>
+    <a href="https://gitee.com/rymcu-community/nebula-pi-stm32/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
+</p>
+
 # 零基础入门STM32，基于HAL开发！
 
 #### [1.点亮你的第一个LED灯](https://gitee.com/rymcu-community/nebula-pi-stm32/blob/master/1-LED/1.%E7%82%B9%E4%BA%AE%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AALED.md)
@@ -29,7 +41,5 @@
 #### [14.USB虚拟串口]()
 
 #### [15.HAL库USB HID键盘设备]()
-
-
 
 #### 持续更新.....
