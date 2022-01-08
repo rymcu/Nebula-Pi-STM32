@@ -1,0 +1,3 @@
+/Users/hugh/Desktop/17-内部FLASH模拟U盘/Proj32/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hugh/Desktop/17-内部FLASH模拟U盘/Proj32/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hugh/Desktop/17-内部FLASH模拟U盘/Proj32/cmake-build-debug/CMakeFiles/Proj32.elf.dir

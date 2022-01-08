@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$USER_HOME$/Desktop/26-串行FLASH文件系统FatFs/2-FatFs文件系统常用函数测试/User/FATFS/diskio.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Desktop/26-串行FLASH文件系统FatFs/2-FatFs文件系统常用函数测试/User/flash/bsp_spi_flash.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Desktop/26-串行FLASH文件系统FatFs/2-FatFs文件系统常用函数测试/User/main.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Desktop/bsp_i2c.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Desktop/bsp_i2c.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Core/Src/bsp_spi_flash.c" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/../../../../temp/1-书籍配套例程-F103RCMINI(3)/43-读写内部FLASH/User/main.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Downloads/STM32-USB-MSC-main/bsp_spi_flash.c" charset="GB2312" />
+    <file url="file://$USER_HOME$/Downloads/STM32-USB-MSC-main/bsp_spi_flash.h" charset="GBK" />
+    <file url="mock:///bsp_spi_flash.c" charset="GBK" />
+    <file url="mock:///main.c" charset="GB2312" />
+  </component>
+</project>
